@@ -40,7 +40,7 @@ const Form = () => {
   };
 
   return (
-    <div style={{ width: "100%", height: "400px", position: "relative" }}>
+    <div style={{ width: "100%", height: "400px", position: "relative" }} >
       <Antigravity
         count={300}
         magnetRadius={6}

@@ -9,7 +9,7 @@ const Content = () => {
     <div>
       <Container>
         <div className="py-5 h-150">
-          <div className="grid grid-cols-1 lg:grid-cols-2 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 pb-10 ">
             <div className=" lg:col-span-1 md:h-full h-115 w-full ">
               <div
                 style={{ width: "100%", height: "300px", position: "relative" }}
@@ -44,7 +44,7 @@ const Content = () => {
               </div>
             </div>
             {/* from  */}
-            <div className="lg:col-span-1 text-white ">
+            <div className="lg:col-span-1  text-white ">
               <Form />
             </div>
           </div>
