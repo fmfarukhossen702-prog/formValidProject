@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 550px;
+  --breakpoint-md: 730px;
+  --breakpoint-lg: 920px;
+  --breakpoint-xl: 1120px;
+}
+@utility container{
+    @apply mx-auto
+}
